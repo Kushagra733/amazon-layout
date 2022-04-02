@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: linear-gradient(blueviolet,white);
+}
+.box{
+    background-color: rgb(245, 245, 81);
+    margin: 5px;
+    padding: 10px;
+    height: 60vh;
+    width: 22vw;
+}

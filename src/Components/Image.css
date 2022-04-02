@@ -1,0 +1,25 @@
+.change{
+    display: flex;
+    align-items: center;
+    height:270px;
+    
+}
+.prev{
+    background-color: transparent;
+    border: 2px solid black;
+    position: absolute;
+    left: 0%;
+    height: 100px;
+    width:40px;
+}
+.next{
+    background-color: transparent;
+    border: 2px solid black;
+    position: absolute;
+    right: 0%;
+    height: 100px;
+    width:40px;
+}
+.prev,.next:hover{
+    cursor: pointer;
+}

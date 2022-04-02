@@ -1,0 +1,86 @@
+.header{
+    
+   
+    background-color:#0F1111;
+    height: 60px;
+    color: white;
+}
+ul{
+    display: flex;
+    height: 80vh;
+
+}
+li{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+    list-style-type: none;
+    text-decoration: none;
+    height: 50px;
+}
+.x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.logo{
+    height: 90px;
+    
+    
+}
+.x1{
+    font-size: small;
+    color: rgb(218, 209, 209);
+}
+.x2{
+    font-weight: 600;
+}
+
+
+.dropdown{
+    position: relative;
+    bottom: 18px;
+    background-color: rgb(218, 209, 209);
+    height: 47px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#text{
+       
+    color: rgb(228, 228, 23);
+    height: 40px;
+}
+.btn{
+    width: 50px;
+    position: relative;
+    bottom: 18px;
+    height: 50px;
+    background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(167, 129, 59);
+}
+.x3{
+    font-size: small;
+    color: white;
+}
+li:hover{
+    cursor:pointer;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    font-weight: 600;
+}
+
+
